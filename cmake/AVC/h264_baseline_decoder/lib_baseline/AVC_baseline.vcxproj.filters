@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\AVCdisplay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\BitstreamSkip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\cavlc_mmx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\cavlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\decode_MB_I.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\decode_MB_P.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\display_management.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\edge_filter_MMX.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\edge_filter_TI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\edge_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\fill_caches.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\FinishFrame.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\IDR_picture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\Images_set_edges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\init_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\init_Ptr_Fction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpol_0_n_TI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpol_0_n.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpol_2_n_TI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpol_2_n.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpol_n_0_TI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpol_n_0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpol_n_2_TI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpol_n_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpol_n_n_TI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpol_n_n.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation_0_n.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation_2_n.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation_4x4_mmx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation_4x4_TI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation_8x8_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation_8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation_mmx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation_n_0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation_n_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation_n_n.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\interpolation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\macroblock_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\macroblock_partitionning.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\mb_pred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\memory_management.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\motion_vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\Nal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\neighbourhood.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\non_IDR_picture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\pic_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\picture_management.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\pps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\prediction_mode_8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\prediction_mode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\Quantization.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\Read_H264.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\refill.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\scaling_matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\sei.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\slice_data_vlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\slice_group_map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\slice_header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\sps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\Transform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\write_back.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\svcsvn\AVC\h264_baseline_decoder\lib_baseline\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0344C501-1FA4-4749-8894-4E0F314B4DF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

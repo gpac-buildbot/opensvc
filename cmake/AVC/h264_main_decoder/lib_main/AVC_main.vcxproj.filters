@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\BitstreamSkipB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\CabacMbPred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\CabacMvAndRef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\cavlc_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\Direct_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\Fill_caches_cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\FinishFrameMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\interpolation_main_8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\interpolation_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\Loop_Filter_B.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\macroblock_cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\macroblock_layer_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\mb_cabac_partionning.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\mb_pred_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\residual_cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\SetImage4x4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\SetImage8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\slice_cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\slice_data_B.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\slice_data_cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\svcsvn\AVC\h264_main_decoder\lib_main\vlc_cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0344C501-1FA4-4749-8894-4E0F314B4DF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\B_BL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\BackEdge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\BL_residual.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\BL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\cabac_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\CabacBMacroblock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\CabacIPartionning.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\CabacPMacroblock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\cavlc_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\ChooseLayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\CoeffLevelPrediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\Coordonates.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\egde_boundary.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\ErrorConcealment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\ErrorDetection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\Fill_caches_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\FinishFrameSVC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\I_BL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\InterLayerPrediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\Loop_filter_ext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\macroblock_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\Mb_B_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\Mb_I_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\Mb_P_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\mb_padding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\mb_upsample_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\MemoryManagement.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\MergeMvIdx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\motion_vector_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\nal_unit_header_svc_extension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\P_BL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\ParseAUDecoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\PartitionType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\pic_list_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\residual_4x4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\residual_8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\residual_chroma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\ResidualProcessing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\seq_parameter_set_svc_extension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\Slice_data_B_avc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\Slice_data_B_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\slice_data_cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\slice_data_cavlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\Slice_data_I_avc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\slice_data_I_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\Slice_data_P_avc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\slice_data_P_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\slice_data_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\slice_header_svc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\slice_layer_in_scalable_extension_rbsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\SliceHeaderAnnex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\SliceHeaderExtension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\svc_neighbourhood.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\SVCdisplay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\SwitchAdress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\upsample_residu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\VlcCabacSvc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\svcsvn\SVC\lib_svc\WriteBackSVC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0344C501-1FA4-4749-8894-4E0F314B4DF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
