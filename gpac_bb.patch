@@ -75,4 +75,4 @@ Index: SVC/lib_svc/CMakeLists.txt
 -ADD_DEFINITIONS(-DHAVE_SDL)
  
  add_library (SVC_baseline
- B_BL.c
+ B_BL.c
