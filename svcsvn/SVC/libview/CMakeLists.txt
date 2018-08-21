@@ -1,4 +1,5 @@
 include_directories(${SDL_INCLUDE_DIR})
 
 add_library (DisplaySDL
-extract_picture.csdl.c)
+extract_picture.c
+sdl.c)
