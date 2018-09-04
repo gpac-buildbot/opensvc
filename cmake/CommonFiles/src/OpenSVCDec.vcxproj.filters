@@ -7,7 +7,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="OpenSVCDecoder.def" />
-    <None Include="..\..\..\svcsvn\CommonFiles\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\svcsvn\CommonFiles\src\ControlLayer.c" />
