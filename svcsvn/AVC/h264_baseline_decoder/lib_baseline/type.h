@@ -44,7 +44,7 @@
 
 
 #ifndef WIN32
-#define __declspec(X) 
+#define __declspec(X)
 #endif
 
 
@@ -55,7 +55,7 @@
 #define PIC_HEIGHT 576
 #undef RESTRICT
 #define RESTRICT restrict
-#define UINT64 unsigned long long 
+#define UINT64 unsigned long long
 #elif POCKET_PC
 #define PIC_WIDTH  640
 #define PIC_HEIGHT 480
@@ -71,8 +71,8 @@
 #ifdef MMXi
 #ifdef POCKET_PC
 #include <mmintrin.h>
-#include <cmnintrin.h> 
-#define empty() 
+#include <cmnintrin.h>
+#define empty()
 #else
 #include <emmintrin.h>
 #include <mmintrin.h>
@@ -81,8 +81,8 @@
 #elif MMX
 #ifdef POCKET_PC
 #include <mmintrin.h>
-#include <cmnintrin.h> 
-#define empty() 
+#include <cmnintrin.h>
+#define empty()
 #else
 #include <emmintrin.h>
 #include <mmintrin.h>
@@ -94,13 +94,14 @@
 #ifdef SSE2
 #ifdef POCKET_PC
 #include <mmintrin.h>
-#include <cmnintrin.h> 
+#include <cmnintrin.h>
 #else
 #include <emmintrin.h>
 #include <mmintrin.h>
 #endif
 #endif
 
+#include <stdlib.h>
 
 #define MAX_SIZE_DBP (PIC_WIDTH + 32)*(PIC_HEIGHT + 32)*DBP_DEPTH
 #define PIC_WIDTH_MB_MAX (PIC_WIDTH >> 4)
@@ -136,7 +137,7 @@
 
 
 //Define structure
-typedef struct 
+typedef struct
 {
 
 	int offset_for_non_ref_pic;
@@ -160,10 +161,10 @@ typedef struct
 
 
 	//Crop
-	short CropLeft; 
+	short CropLeft;
 	short CropRight;
 	short CropTop;
-	short CropBottom; 
+	short CropBottom;
 
 	//Scaling matrix
 	short scaling_matrix_present;
@@ -179,7 +180,7 @@ typedef struct
 	unsigned char log2_max_frame_num ;
 	unsigned char log2_max_pic_order_cnt_lsb;
 	unsigned char MbAdaptiveFrameFieldFlag ;
-	unsigned char direct_8x8_inference_flag;	
+	unsigned char direct_8x8_inference_flag;
 	unsigned char num_ref_frames_in_pic_order_cnt_cycle;
 	unsigned char num_ref_frames;
 	unsigned char nb_img_disp;
@@ -203,7 +204,7 @@ typedef struct
 
 	//SVC
 	unsigned char extended_spatial_scalability;
-	char slice_header_restriction_flag; 
+	char slice_header_restriction_flag;
 	unsigned char InterLayerDeblockingFilterFlag;
 	unsigned char adaptive_tcoeff_level_prediction_flag;
 	unsigned char tcoeff_level_prediction_flag;
@@ -256,7 +257,7 @@ typedef struct {
 	unsigned char constrained_intra_pred_flag ;
 
 
-	//HP 
+	//HP
 	unsigned char transform_8x8_mode_flag;
 	char second_chroma_qp_index_offset;
 	char AlphaOffset;
@@ -320,7 +321,7 @@ typedef struct {
 }   SLICE;
 
 
-typedef struct 
+typedef struct
 {
 	//Memory addresses
 	int MvMemoryAddress;
@@ -328,8 +329,8 @@ typedef struct
 
 	//frame parameters
 	short poc; // picture order count
-	short frame_num; 
-	short pic_id; 
+	short frame_num;
+	short pic_id;
 
 	short ref_poc_l0[16];//poc of reference frame
 	short ref_poc_l1[16];
@@ -374,7 +375,7 @@ typedef struct MMCO{
 
 
 
-typedef struct 
+typedef struct
 {
 
 	int MvMemoryAddress[NUM_MV]; // 32
@@ -397,7 +398,7 @@ typedef struct
 	unsigned char index;
 	unsigned char ShortRefCount;
 	unsigned char LongRefCount;
-	unsigned char RefCountL0; 
+	unsigned char RefCountL0;
 	unsigned char RefCountL1;
 	char FreeMvMemory;
 
@@ -405,7 +406,7 @@ typedef struct
 
 
 
-typedef struct 
+typedef struct
 {
 	int AuMemoryAddress[NUM_LAYERS * 2];//ParseAU + First AU
 	int FreeMemoryAddress[NUM_FREE_MEM]; // 32
@@ -466,7 +467,7 @@ typedef struct {
 	char MotionPredL0[4];
 	char MotionPredL1[4];
 
-	//NonZeroCount	
+	//NonZeroCount
 	unsigned char NonZeroCount[48];
 
 }   DATA ;
@@ -527,7 +528,7 @@ typedef struct {
 typedef struct {
 	VLC_TYPE Chroma_dc_coeff_token_vlc [256];
 	VLC_TYPE Chroma_dc_total_zeros_vlc [24];
-	VLC_TYPE Coeff_token_vlc [1388]; 
+	VLC_TYPE Coeff_token_vlc [1388];
 	VLC_TYPE Total_zeros_vlc [7680];
 	VLC_TYPE Run_vlc [48];
 	VLC_TYPE Run7_vlc [96];
@@ -539,8 +540,8 @@ typedef struct W_TABLES{
 	short W4x4_intra [6][16] ;
 	short W4x4_Cb_intra [6][16] ;
 	short W4x4_Cr_intra [6][16] ;
-	short W4x4_inter [6][16] ; 
-	short W4x4_Cb_inter [6][16] ; 
+	short W4x4_inter [6][16] ;
+	short W4x4_Cb_inter [6][16] ;
 	short W4x4_Cr_inter [6][16] ;
 	short W8x8_intra [6][64] ;
 	short W8x8_inter [6][64] ;
@@ -682,4 +683,3 @@ typedef struct {
 	unsigned char NalToStream;
 } NALSTREAMER;
 #endif
-
